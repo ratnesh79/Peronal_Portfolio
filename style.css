@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+    justify-content:space-evenly;
+    
+}
+.name{
+    padding: 20px;
+}
+.list ul{
+    display: flex;
+    list-style: none;
+
+}
+.list ul li{
+    padding: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.content{
+    margin-top: 60px;
+    width: 50%;
+    padding: 35px;
+}
+.avtar{
+    max-width: 50%;
+    padding: 10px;
+    text-align: right;
+}
+.avtar img{
+    border-radius: 50%;
+    width: 60%;
+    margin-top: 40px;
+}
+.content h1{
+    font-family: 'Work Sans', sans-serif;
+/* font-weight: bold;    */
+margin-bottom: 20px;
+    font-size: 50px;
+   
+}
+.subcontent{
+    line-height: 1.8;
+}
+.subcontent p{
+    /* width: 50%; */
+    color: #505050;
+}
+
+.resume ,.project ,.contact{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: .5px solid ;
+}
+.resume:hover ,.project:hover ,.contact:hover{
+    background-color: #fff;
+    transition: 0.5s ease-in-out ;
+}
+.resume p,.project p,.contact p{
+    margin-top: 40px;
+    background-color: transparent;
+}
+.btn{
+    
+    display: flex;
+}
+.resume{
+    background-color: orange;
+}
+.project{
+    background-color: red;
+    
+}
+.contact{
+    background-color:rgb(137, 236, 236);
+}
+
+footer{
+    line-height: 1.5;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrap{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+.container{
+    max-width: 1180px;
+    padding: 20px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+.header-section h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.wrap-inner{
+    display: flex;
+ justify-content: space-evenly;
+}
+.detail-tag{
+    padding: 10px;
+}
+.title{
+    width: 50%;
+    text-align: center;
+}
+.contain-body{
+    width: 50%;
+}
+.detail{
+    width: 50%;
+    padding: 10px;
+}
+.detail h3{
+    margin-bottom: 8px;
+}
+.detail p{
+    line-height: 1.5;
+    color: #20303c;
+}
+.horizontal{
+    border: .2px dashed;
+    margin: 30px;
+    width: 100%;
+}
+
