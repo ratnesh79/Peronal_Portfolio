@@ -8,6 +8,7 @@
 a{
     text-decoration: none;
     color: black;
+    padding: 5px;
 }
 
 .navbar{
@@ -25,7 +26,7 @@ a{
 }
 .logo{
     width: 20px;
-    background-color: black;
+    background-color: #ff8900;
     height: 20px;
     margin: auto;
     margin-right: 7px;
@@ -69,6 +70,9 @@ a{
 margin-bottom: 20px;
     font-size: 50px;
    
+}
+#element{
+   color:  #ff8900;
 }
 .subcontent{
     line-height: 1.8;
